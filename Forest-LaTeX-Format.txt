@@ -1,0 +1,85 @@
+[{Aves}
+	[{Palaeognathae (ratites etc.)}]
+   	[{Neognathae}
+		[{Galloanserae (ducks, chickens, etc.)}]
+      		[{Neoaves}
+			[{Columbea}
+				[{Mirandornithes (flamingos and grebes)}]
+			    	[
+			    		[{Columbidae (pigeons)}]
+			    		[
+						[{Mesitornithidae (mesites)}]
+						[{Pteroclididae (sandgrouses)}]
+					]
+				]
+			]        
+			[{Passerea}
+		    		[
+		    			[{Cypselomorphae (hummingbirds, swifts)}]
+		      			[
+		       				[{Cuculidae (cuckoos)}]
+			  			[
+			  				[{Otididae (bustards)}]               
+			   				[{Musophagidae (turacos)}]
+		       				]
+					]
+				]
+				[
+       					[
+						[{Opisthocomidae (hoatzin)}]
+		 				[
+		  					[{Gruiformes (rails and cranes)}]
+		   					[{Charadriiformes (shorebirds)}]
+		  				]
+					]
+		       			[
+		 				[
+							[{Aequornithes (loons, penguins, herons, pelicans, storks, etc)}]
+			     				[
+			     					[{Eurypygiformes (sunbittern, kagu)}]
+			      					[{Phaethontidae (tropicbirds)}]
+			     				]
+						]
+			  			[{Telluraves}  
+			  				[{Afroaves}
+							     	[{Accipitrimorphae}
+									[{Cathartidae (condors and New World vultures)}]
+								 	[{Accipitriformes (hawks, eagles, vultures etc.)}]
+								]
+								[
+									[{Strigiformes (owls)}]
+							   		[
+							      			[{Coliidae (mousebirds)}]
+							      			[{Eucavitaves}
+											[{Leptosomatidae (cuckoo roller)}]
+										 	[{Cavitaves}
+												[{Trogonidae (trogons)}]
+												[{Picocoraciae}
+											    		[{Bucerotiformes (hornbills, hoopoe and wood hoopoes)}]
+											       		[
+											       			[{Coraciformes (kingfishers etc.)}]
+														[{Piciformes (woodpeckers etc.)}]
+								       					]
+												]	
+											]
+										]
+									]
+								]
+							]
+						     	[{Australaves}
+						     		[{Cariamidae (seriemas)}]
+								[{Eufalconimorphae}
+									[{Falconidae (falcons)}]
+							   		[{Psittacopasserae}
+							   			[{Psittaciformes (parrots)}]
+							    			[{Passeriformes (songbirds and kin)}]
+									]
+								]
+							]
+						]
+					]
+				]
+			]	
+		]
+	]
+]

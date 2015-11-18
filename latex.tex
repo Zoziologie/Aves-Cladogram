@@ -1,0 +1,107 @@
+\documentclass[tikz]{standalone}
+\usepackage{forest}
+\usepackage{fancyvrb}
+
+\begin{document}
+
+
+
+\begin{forest}
+for tree={
+    grow=0,
+    reversed, % tree direction
+    parent anchor=east,
+    child anchor=west, % edge anchors
+    edge path={\noexpand\path[\forestoption{edge}] (\forestOve{\forestove{@parent}}{name}.parent anchor) -- +(8pt,0) |- (\forestove{name}.child anchor)\forestoption{edge label};},
+    where n children=0{tier=word}{},
+    delay={where content={}{shape=coordinate,for parent={for children={anchor=north}}}{}}
+}
+[{Aves}
+	[{Palaeognathae (ratites etc.)}]
+   	[{Neognathae}
+		[{Galloanserae (ducks, chickens, etc.)}]
+      		[{Neoaves}
+			[{Columbea}
+				[{Mirandornithes (flamingos and grebes)}]
+			    	[
+			    		[{Columbidae (pigeons)}]
+			    		[
+						[{Mesitornithidae (mesites)}]
+						[{Pteroclididae (sandgrouses)}]
+					]
+				]
+			]        
+			[{Passerea}
+		    		[
+		    			[{Cypselomorphae (hummingbirds, swifts)}]
+		      			[
+		       				[{Cuculidae (cuckoos)}]
+			  			[
+			  				[{Otididae (bustards)}]               
+			   				[{Musophagidae (turacos)}]
+		       				]
+					]
+				]
+				[
+       					[
+						[{Opisthocomidae (hoatzin)}]
+		 				[
+		  					[{Gruiformes (rails and cranes)}]
+		   					[{Charadriiformes (shorebirds)}]
+		  				]
+					]
+		       			[
+		 				[
+							[{Aequornithes (loons, penguins, herons, pelicans, storks, etc)}]
+			     				[
+			     					[{Eurypygiformes (sunbittern, kagu)}]
+			      					[{Phaethontidae (tropicbirds)}]
+			     				]
+						]
+			  			[{Telluraves}  
+			  				[{Afroaves}
+							     	[{Accipitrimorphae}
+									[{Cathartidae (condors and New World vultures)}]
+								 	[{Accipitriformes (hawks, eagles, vultures etc.)}]
+								]
+								[
+									[{Strigiformes (owls)}]
+							   		[
+							      			[{Coliidae (mousebirds)}]
+							      			[{Eucavitaves}
+											[{Leptosomatidae (cuckoo roller)}]
+										 	[{Cavitaves}
+												[{Trogonidae (trogons)}]
+												[{Picocoraciae}
+											    		[{Bucerotiformes (hornbills, hoopoe and wood hoopoes)}]
+											       		[
+											       			[{Coraciformes (kingfishers etc.)}]
+														[{Piciformes (woodpeckers etc.)}]
+								       					]
+												]	
+											]
+										]
+									]
+								]
+							]
+						     	[{Australaves}
+						     		[{Cariamidae (seriemas)}]
+								[{Eufalconimorphae}
+									[{Falconidae (falcons)}]
+							   		[{Psittacopasserae}
+							   			[{Psittaciformes (parrots)}]
+							    			[{Passeriformes (songbirds and kin)}]
+									]
+								]
+							]
+						]
+					]
+				]
+			]	
+		]
+	]
+]
+\end{forest}
+
+
+\end{document}
