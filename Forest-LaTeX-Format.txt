@@ -1,12 +1,57 @@
 [{Aves}
-	[{Palaeognathae (ratites etc.)}]
+	[{Palaeognathae (ratites etc.)}
+		[{Struthioniformes (Ostriches)}]
+		[Notopalaeognathae
+			[{Rheiformes (Rhea)}]
+			[
+				[
+					[{Tinamiformes (Tinamous)}]
+					[{$\dagger$Dinornithiformes (Moa)}]
+				]
+				[{Novaeratitae}	
+					[
+						[{Apterygiformes (Kiwi)}]
+						[{$\dagger$Aepyornithiformes (Elephant bird)}]
+					]
+					[{Casuariiformes}
+						[{Casuariidae (Cassowary)}]
+						[{Dromaiidae (Emu)}]
+					]
+				]
+			]
+		]
+	]
    	[{Neognathae}
-		[{Galloanserae (ducks, chickens, etc.)}]
+		[{Galloanserae (ducks, chickens, etc.)}
+			[{Galliformes (chicken, grouse, turkeys, etc.)}]
+			[Odontoanserae
+				[$\dagger$Pelagornithidae]
+				[
+					[$\dagger$Gastornithiformes]
+					[{Anseriformes (ducks, geese, and swans)}
+						[{Anhimidae (screamers)}]
+						[{Anseranatidae (magpie goose)}]
+						[{Anatidae}
+							[{Dendrocygninae (whistling ducks)}]
+							[{Anserinae (swans and geese)}]
+							[{Plectropterinae (spur-winged goose}]
+							[{Tadorninae (shelducks)}]
+							[{Anatinae (dabbling duck)}]
+							[{Aythyinae (diving ducks)}]
+							[{Merginae (eiders, scoters, mergansers)}]
+						]
+					]
+				]		
+			]	
+		]
       		[{Neoaves}
 			[{Columbea}
-				[{Mirandornithes (flamingos and grebes)}]
+				[{Mirandornithes}
+					[{Phoenicopteriformes (flamingos)}]
+					[{Podicipediformes (grebes)}]
+				]
 			    	[
-			    		[{Columbidae (pigeons)}]
+			    		[{Columbidae (pigeons and $\dagger$dodo)}]
 			    		[
 						[{Mesitornithidae (mesites)}]
 						[{Pteroclididae (sandgrouses)}]
@@ -15,7 +60,16 @@
 			]        
 			[{Passerea}
 		    		[
-		    			[{Cypselomorphae (hummingbirds, swifts)}]
+		    			[{Cypselomorphae (hummingbirds, swifts)}
+						[{Caprimulgidae (nightjars and nighthawks)}]
+						[{Nyctibiidae (potoos)}]
+						[{Apodiformes}
+							[{Apodidae (swifts)}]
+							[{Hemiprocnidae (tree swifts)}]
+							[{Trochilidae (hummingbirds)}]
+						]
+						[{Aegotheliformes (owlet-nightjars)}]
+					]
 		      			[
 		       				[{Cuculidae (cuckoos)}]
 			  			[
@@ -28,13 +82,74 @@
        					[
 						[{Opisthocomidae (hoatzin)}]
 		 				[
-		  					[{Gruiformes (rails and cranes)}]
-		   					[{Charadriiformes (shorebirds)}]
+		  					[{Gruiformes}
+								[{Rallidae (crakes, moorhens, gallinules, and rails)}]
+								[{Gruidae (cranes)}]
+							]
+		   					[{Charadriiformes (shorebirds)}
+								[{Scolopaci (sandpiper)}
+									[{Numenius (curlews)}]
+									[{Bartramia (upland sandpiper)}]
+									[{Limosa (godwits)}]
+									[{Limnodromus (dowitchers)}]
+									[{ (snipe and woodcocks)}]
+									[{Phalaropus (phalaropes)}]
+									[{ (Shanks and tattlers)}]
+									[{Prosobonia (polynesian sandpipers)}]
+									[{Calidris (sandpiper, ruff and turnstones)}]
+								]
+								[{Thinocori (aberrant charadriforms: jacanas (Jesus birds), painted-snipe...)}]
+								[{Lari (gulls and allies)}
+									[{Laridae (gulls)}]
+									[{Rhynchopidae (skimmers)}]
+									[{Sternidae (terns)}]
+									[{Alcidae (puffins, guillemots, murres, and allies)}]
+									[{Stercorariidae (skuas)}]
+									[{Glareolidae (pratincoles and coursers)}]
+									[{Pluvianidae (Egyptian plover)}]
+									[{Dromadidae (crab plover)}]
+								]
+								[{Turnici (buttonquails)}]
+								[{Chionidi (thick-knees and allies)}]
+								[{Charadrii (plover-like waders)}
+									[{Ibidorhynchidae (ibisbill)}]
+									[{Recurvirostridae (avocets and stilts)}]
+									[{Haematopodidae (oystercatchers)}]
+									[{Charadriidae (plovers, dotterels and lapwings)}]
+								]
+							]
 		  				]
 					]
 		       			[
 		 				[
-							[{Aequornithes (loons, penguins, herons, pelicans, storks, etc)}]
+							[{Aequornithes}
+								[{Gaviiformes (loons)}]
+								[
+									[{Austrodyptornithes}
+										[{Procellariiformes (albatross and petrels)}]
+										[{Sphenisciformes (penguins)}]
+									]
+									[
+										[{Ciconiiformes (storks)}]
+										[
+											[{Suliformes (boobies, cormorants, etc.)}]
+											[{Pelecaniformes}
+												[
+													[{Pelecanidae (pelicans)}]
+													[
+														[{Balaeniceps rex (shoebill)}]
+														[{Scopus umbretta (hamerkop)}]
+													]
+												]
+												[
+													[{Threskiornithidae (ibises and spoonbills)}]
+													[{Ardeidae (herons and egrets)}]
+												]
+											]
+										]
+									]
+								]
+							]
 			     				[
 			     					[{Eurypygiformes (sunbittern, kagu)}]
 			      					[{Phaethontidae (tropicbirds)}]
@@ -44,7 +159,26 @@
 			  				[{Afroaves}
 							     	[{Accipitrimorphae}
 									[{Cathartidae (condors and New World vultures)}]
-								 	[{Accipitriformes (hawks, eagles, vultures etc.)}]
+								 	[{Accipitriformes}
+										[{Accipitridae (buzzards, eagles, harriers, hawks, kites, Old World vultures)}
+											[{Elaninae (elanid kites)}]
+											[{Perninae (honey buzzards)}]
+											[{Aegypiinae (Old World vultures)}]
+											[{Gypaetinae (Bearded, egyptian etc.)}]
+											[{Buteoninae (Buzzard etc.)}]
+											[{Aquilinae (Aquila, Clanga etc.)}]
+											[{Circinae (harriers)}]
+											[{Polyboroidinae (harrier hawks)}]
+											[{Milvinae (kites)}]
+											[{Accipitrinae (goshawks, sparrowhawks)}]
+											[{Circaetinae (snake eagles)}]
+											[{Haliaeetinae (sea eagles)}]
+											[{Harpiinae}]
+											[{Melieraxinae}]
+										]
+										[{Pandionidae (Osprey)}]
+										[{Sagittariidae (Secretary Bird)}]
+									]
 								]
 								[
 									[{Strigiformes (owls)}]
@@ -57,8 +191,22 @@
 												[{Picocoraciae}
 											    		[{Bucerotiformes (hornbills, hoopoe and wood hoopoes)}]
 											       		[
-											       			[{Coraciformes (kingfishers etc.)}]
-														[{Piciformes (woodpeckers etc.)}]
+											       			[{Coraciformes (kingfishers, bee-eaters, rollers, motmots and todies)}]
+														[{Piciformes}
+															[{Galbuli (jacamars, puffbirds, nunbirds and nunlets}]
+															[Pici
+																[{Ramphastides (toucans and barbets)}]
+																[{Picides}
+																	[{Indicatoridae (Honeyguides)}]
+																	[{Picidae}
+																		[{Jynginae (Wrynecks)}]
+																		[{Nesoctitinae (Antillean Piculet)}]
+																		[{Picumninae (Piculets)}]
+																		[{Picinae (Woodpeckers)}]
+																	]
+																]
+															]
+														]
 								       					]
 												]	
 											]
