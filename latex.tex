@@ -11,29 +11,23 @@ for tree={
     grow=0,
     reversed, % tree direction
     parent anchor=east,
-    child anchor=west, % edge anchors
+    %child anchor=west, % edge anchors
     anchor=west,
     edge path={
-      \noexpand\path[\forestoption{edge}](!u.parent anchor) -- +(5pt,0) |- (.child anchor)\forestoption{edge label};},
-    where n children=0{tier=word}{},
-    delay={where content={}{shape=coordinate,for parent={for children={anchor=north}}}{}}
+    \noexpand\path[\forestoption{edge}](!u.parent anchor) -- +(5pt,0) |- (.child anchor)\forestoption{edge label};},
+    %where n children=0{tier=word}{},
+    delay={where content={}{shape=coordinate,for parent={for children={anchor=west}}}{}}
 }
 [{Aves}
-	[{Palaeognathae (ratites etc.)}
+	[{Palaeognathae}
 		[{Struthioniformes (Ostriches)}]
-		[Notopalaeognathae
+		[
 			[{Rheiformes (Rhea)}]
 			[
-				[
-					[{Tinamiformes (Tinamous)}]
-					[{$\dagger$Dinornithiformes (Moa)}]
-				]
-				[{Novaeratitae}	
+				[{Tinamiformes (Tinamous)}]
+				[	
+					[{Apterygiformes (Kiwi)}]
 					[
-						[{Apterygiformes (Kiwi)}]
-						[{$\dagger$Aepyornithiformes (Elephant bird)}]
-					]
-					[{Casuariiformes}
 						[{Casuariidae (Cassowary)}]
 						[{Dromaiidae (Emu)}]
 					]
@@ -42,25 +36,19 @@ for tree={
 		]
 	]
    	[{Neognathae}
-		[{Galloanserae (ducks, chickens, etc.)}
-			[{Galliformes (chicken, grouse, turkeys, etc.)}]
-			[Odontoanserae
-				[$\dagger$Pelagornithidae]
-				[
-					[$\dagger$Gastornithiformes]
-					[{Anseriformes (ducks, geese, and swans)}
-						[{Anhimidae (screamers)}]
-						[{Anseranatidae (magpie goose)}]
-						[{Anatidae}
-							[{Dendrocygninae (whistling ducks)}]
-							[{Anserinae (swans and geese)}]
-							[{Plectropterinae (spur-winged goose}]
-							[{Tadorninae (shelducks)}]
-							[{Anatinae (dabbling duck)}]
-							[{Aythyinae (diving ducks)}]
-							[{Merginae (eiders, scoters, mergansers)}]
-						]
-					]
+		[{Galloanserae}
+			[{Galliformes}]
+			[{Anseriformes}
+				[{Anhimidae (screamers)}]
+				[{Anseranatidae (magpie goose)}]
+				[{Anatidae}
+					[{Dendrocygninae (whistling ducks)}]
+					[{Anserinae (swans and geese)}]
+					[{Plectropterinae (spur-winged goose}]
+					[{Tadorninae (shelducks)}]
+					[{Anatinae (dabbling duck)}]
+					[{Aythyinae (diving ducks)}]
+					[{Merginae (eiders, scoters, mergansers)}]
 				]		
 			]	
 		]
@@ -141,7 +129,7 @@ for tree={
 		  				]
 					]
 		       			[
-		 				[
+		 				[{Ardeae}
 							[{Aequornithes}
 								[{Gaviiformes (loons)}]
 								[
@@ -200,23 +188,23 @@ for tree={
 										[{Sagittariidae (Secretary Bird)}]
 									]
 								]
-								[
+								[{Piciformes}
 									[{Strigiformes (owls)}]
 							   		[
 							      			[{Coliidae (mousebirds)}]
-							      			[{Eucavitaves}
+							      			[
 											[{Leptosomatidae (cuckoo roller)}]
-										 	[{Cavitaves}
+										 	[
 												[{Trogonidae (trogons)}]
-												[{Picocoraciae}
-											    		[{Bucerotiformes (hornbills, hoopoe and wood hoopoes)}]
+												[
+											    		[{Bucerotiformes (hornbills and hoopoe)}]
 											       		[
 											       			[{Coraciformes (kingfishers, bee-eaters, rollers, motmots and todies)}]
-														[{Piciformes}
+														[
 															[{Galbuli (jacamars, puffbirds, nunbirds and nunlets}]
-															[Pici
+															[
 																[{Ramphastides (toucans and barbets)}]
-																[{Picides}
+																[
 																	[{Indicatoridae (Honeyguides)}]
 																	[{Picidae}
 																		[{Jynginae (Wrynecks)}]
@@ -236,11 +224,11 @@ for tree={
 							]
 						     	[{Australaves}
 						     		[{Cariamidae (seriemas)}]
-								[{Eufalconimorphae}
+								[
 									[{Falconidae (falcons)}]
-							   		[{Psittacopasserae}
+							   		[
 							   			[{Psittaciformes (parrots)}]
-							    			[{Passeriformes (songbirds and kin)}]
+							    			[{Passeriformes}]
 									]
 								]
 							]
